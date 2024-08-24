@@ -7,3 +7,15 @@ if(first == second){
 else{
     console.log("condition is false");
 }
+
+/// vs ===
+
+const first1 = 2;
+const second1 = "2";
+
+if(first1 === second1){
+    console.log("condition is true");
+}
+else{
+    console.log("condition is false");
+}
